@@ -1,23 +1,38 @@
 href="style.css">
 
 body {
-            
+   background-color: red;         
 }
 
-#html {
+#container {
     background-color: white;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
     font-family: Ariel, sans-serif;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
 #header {
     background-color: #66CCFF;
     color: white;
     text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#logo {
+    float: left;    
+}
+
+#heading1 {
+    text-align: center;    
+}
+
+#content {
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 #main {
@@ -35,34 +50,49 @@ body {
     text-align: center;
     background-color: grey;
     margin: auto;
-    border-radius:  
+    border-radius: 20px; 
+    padding: 10px;
 }
     
 #nav ol li {
     display: inline;
-    margin: 20px;
+    margin: 50px;
+    text-align: center;
 }
     
 #nav ol li a {
     text-decoration: none;
     color: black;
     font-family: Ariel, sans-serif;
+    text-align: center;
+}
+
+#nav .selected {
+    font-weight: bold;
 }
 
 #nav ol li a:hover {
     text-decoration: none;
     color: white;
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
+#productbox {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 600px;
+    border-style: solid;
+    border-radius: 20px;
+    border-right-width: 100px;
+    border-color: #98bf21;
+}
 
 #footer {
+    clear: both;
+    padding: 10px;
     background-color: #66CCFF;
-    width: 1000px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: right;
     font-family: Ariel, sans-serif;
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
